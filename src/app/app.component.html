@@ -1,0 +1,8 @@
+<div class="column">
+  <div class="row">
+    <reset-btn (click)="startNewTry()"></reset-btn>
+    <div class="dot" [class.green]="timerEnded"></div>
+    <change-btn (click)="getFinalScore()"></change-btn>
+  </div>
+  <p>Czas reakcji: {{reactionTime}}</p>
+</div>
